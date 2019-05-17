@@ -1,5 +1,15 @@
+<p align="left">
+  <a href="#">
+    <img
+      alt="moss"
+      src="https://github.com/Imaginary11/bionic-utils/blob/master/bionic-utils.jpg"
+      width="50%"
+    />
+  </a>
+</p>
+
 ## 概述
-bionic-utils是作者开发中常用到的工具类封装整合,至于为什么叫仿生工具箱,灵感吧～<br>
+bionic-utils是作者开发中常用到的工具类封装整合,至于为什么叫仿生工具箱,最近对fc比较着迷😄～<br>
 工具箱包含但不限于以下开箱即用方法:
 - JWT生成器、解析器
 - AES256 加密、解密
