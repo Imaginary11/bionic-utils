@@ -35,7 +35,7 @@ bionic-utils是作者开发中常用到的工具类封装整合,至于为什么�
     <dependency>
       <groupId>com.github.imaginary11</groupId>
       <artifactId>bionic-utils</artifactId>
-      <version>1.0.1-RELEASE</version>
+      <version>1.0.2-RELEASE</version>
     </dependency>
 
 > gradle 
