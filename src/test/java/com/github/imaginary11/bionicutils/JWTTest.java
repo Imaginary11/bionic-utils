@@ -22,5 +22,6 @@ public class JWTTest {
         Assert.assertNotNull(token);
         ReturnData returnData = JwtHelper.valid(token);
         Assert.assertEquals(name, ReflectUtil.getStrValue(returnData.getData(),"name"));
+        Assert.assertTrue(returnData.getData() instanceof JSONObject);
     }
 }

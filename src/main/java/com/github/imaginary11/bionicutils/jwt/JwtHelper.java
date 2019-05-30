@@ -58,7 +58,7 @@ public class JwtHelper {
             if (jwsObject.verify(jwsVerifier)) {
                 returnData = new ReturnData();
                 JSONObject jsonObject = payload.toJSONObject();
-                returnData.setData(jsonObject);
+                returnData.setData(com.alibaba.fastjson.JSONObject.parse(jsonObject.toString()));
                 if (jsonObject.containsKey(EXPIRE)) {
                     Long expTime = Long.valueOf(jsonObject.get(EXPIRE).toString());
                     Long nowTime = System.currentTimeMillis();
