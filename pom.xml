@@ -47,7 +47,7 @@
         <commons.pool2.version>2.4.2</commons.pool2.version>
         <common.lang3.version>3.5</common.lang3.version>
         <common.bean.util.version>1.9.3</common.bean.util.version>
-        <jwt.version>4.23</jwt.version>
+        <jwt.version>7.9</jwt.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <javax.servlet.version>4.0.1</javax.servlet.version>
